@@ -11,3 +11,11 @@ Collection of things that are good to know
 
 Now you can install packages with pacman.
 
+## Install pip with pacman
+1. sudo pacman -S python-pip
+  But that's not enough, you need to install pipx 
+2. sudo pacman -S python-pipx
+
+## Install sth with pipx (e.g. uv)
+1. pipx install uv
+
