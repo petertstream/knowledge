@@ -27,5 +27,11 @@ Also, when packages cannot be installed, check if there is a message "not enough
 ## Installing ollama on steam deck
 rootfs gets bloated when you install ollama directly (see above).
 What I did:
-1. Downloaded ollama rocm version -> curl -L https://ollama.com/download/ollama-linux-amd64-rocm.tgz -o ollama-linux-amd64-rocm.tgz
-2. Doenloaded ollama binary -> curl -o ollama -L https://ollama.com/download/ollama-linux-amd64-rocm
+1. Created a folder "AI"
+2. cd AI
+3. Downloaded ollama version to this folder -> curl -L https://ollama.com/download/ollama-linux-amd64.tgz -o ollama-linux-amd64.tgz
+4. Unpack tar in this folder -> tar -xzf ollama-linux-amd64.tgz
+5. I get a "bin" and "lib" folder
+6. Downloaded ollama rocm version to this folder -> curl -L https://ollama.com/download/ollama-linux-amd64-rocm.tgz -o ollama-linux-amd64-rocm.tgz
+7. Unpack tar in this folder -> tar -xzf ollama-linux-amd64-rocm.tgz
+8. It updates the "lib" folder
