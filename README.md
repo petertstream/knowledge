@@ -12,6 +12,10 @@ Collection of things that are good to know
 
 Now you can install packages with pacman.
 
+## Be careful
+rootfs is not large on SteamDeck. Installing packages etc. might fill the drive.
+Also, when packages cannot be installed, check if there is a message "not enough space on hard drive" or similar.
+
 ## Install pip with pacman
 1. sudo pacman -S python-pip
   But that's not enough, you need to install pipx 
