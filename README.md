@@ -24,3 +24,8 @@ Also, when packages cannot be installed, check if there is a message "not enough
 ## Install sth with pipx (e.g. uv)
 1. pipx install uv
 
+## Installing ollama on steam deck
+rootfs gets bloated when you install ollama directly (see above).
+What I did:
+1. Downloaded ollama rocm version -> curl -L https://ollama.com/download/ollama-linux-amd64-rocm.tgz -o ollama-linux-amd64-rocm.tgz
+2. Doenloaded ollama binary -> curl -o ollama -L https://ollama.com/download/ollama-linux-amd64-rocm
